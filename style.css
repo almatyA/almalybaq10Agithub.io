@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  padding: 0%;
+}
+.videobg.mov {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.videobg.mov {
+  height: 100;
+  width: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.video-bg__content {
+  z-index: 2;
+  font-size: 50px;
+  color: azure;
+}
